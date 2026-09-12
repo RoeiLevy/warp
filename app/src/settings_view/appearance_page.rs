@@ -95,8 +95,8 @@ use crate::workspace::tab_settings::{
     DirectoryTabColor, HideTitleBarSearchBarInVerticalTabs, PreserveActiveTabColor, RailShowTasks,
     RailTaskInfo, ShowIndicatorsButton, ShowVerticalTabPanelInRestoredWindows,
     TabCloseButtonPosition, TabLineCount, TabSettings, TabSettingsChangedEvent,
-    UseLatestUserPromptAsConversationTitleInTabNames, UseProjectLayout,
-    UseVerticalTabs, WorkspaceDecorationVisibility, canonical_directory_key,
+    UseLatestUserPromptAsConversationTitleInTabNames, UseProjectLayout, UseVerticalTabs,
+    WorkspaceDecorationVisibility, canonical_directory_key,
 };
 use crate::{send_telemetry_from_ctx, themes};
 
