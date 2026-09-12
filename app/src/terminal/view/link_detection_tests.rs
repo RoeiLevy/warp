@@ -16,7 +16,7 @@ fn temp_repro_relative_path_link() {
     let file = docs.join("uat_scenarios_3_and_7_test_data.md");
     std::fs::write(&file, "# Hello\n").unwrap();
 
-    let blockgrid = crate::test_util::blockgrid::mock_blockgrid(
+    let blockgrid = crate::test_util::mock_blockgrid(
         "› [file] docs/uat_scenarios_3_and_7_test_data.md (25.5KB)",
     );
     // Hover in the middle of the relative path.
